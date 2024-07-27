@@ -79,7 +79,7 @@ def get_text_chunks(text):
     docs = text_splitter.split_documents(text)
     return docs
 
-# WIznXuzYZVtNu2mAHRa0FBXac9ufRgaWnv2n4EctjHHeii9pgYKqDA
+
 def get_vectorstore(text_chunks):
     
     knowledge_base = QdrantVectorStore.from_documents(
