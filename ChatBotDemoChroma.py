@@ -17,7 +17,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-large", api_key="<API Key>
 
 def run_app():
     load_dotenv()
-    st.set_page_config(page_title="Lockton Demo")
+    st.set_page_config(page_title="Chatbot Demo")
     st.header("Lockton Demo")
 
     if "conversation" not in st.session_state:
